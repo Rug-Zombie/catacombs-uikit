@@ -1,14 +1,14 @@
 {
-  "name": "@rug-zombie-libs/uikit",
+  "name": "@catacombs-libs/uikit",
   "version": "0.29.3",
-  "description": "Set of UI components for pancake projects",
+  "description": "Set of UI components for the catacombs",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Rug-Zombie/rug-zombie-uikit.git",
+  "repository": "https://github.com/Rug-Zombie/catacombs-uikit.git",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
