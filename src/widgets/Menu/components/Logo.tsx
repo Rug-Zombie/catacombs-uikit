@@ -5,7 +5,7 @@ import { LogoIcon } from "../../../components/Svg";
 import Flex from "../../../components/Box/Flex";
 import { HamburgerIcon, HamburgerCloseIcon, LogoIcon as LogoWithText } from "../icons";
 import MenuButton from "./MenuButton";
-const RugZombieLogo = "https://storage.googleapis.com/rug-zombie/RugZombieBanner.png" //TODO switch gcloud url
+const RugZombieLogo = "https://storage.googleapis.com/rug-zombie/catacombs-banner.png"
 
 interface Props {
   isPushed: boolean;
