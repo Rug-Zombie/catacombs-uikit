@@ -4,10 +4,7 @@ import { SvgProps } from "../../../components/Svg/types";
 
 const Icon: React.FC<SvgProps> = (props) => {
     return (
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.5 48.4">
-            <defs>
-                <style>.cls-1{fill:#101820;stroke:#b5bd00;stroke-miterlimit:10;stroke-width:0.5px;}</style>
-            </defs>
+        <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.5 48.4" {...props}>
             <path className="cls-1"
                   d="M34.4,45.1H27V42.4a13.4,13.4,0,0,1-2,.1,13.4,13.4,0,0,1-2-.1v2.7H15.6a1.9,1.9,0,0,0,0,3.8H34.4a1.9,1.9,0,0,0,0-3.8Z"
                   transform="translate(-5.75 -0.75)"/>
@@ -35,7 +32,7 @@ const Icon: React.FC<SvgProps> = (props) => {
                   transform="translate(-5.75 -0.75)"/>
             <path className="cls-1" d="M24.4,9.1a.56.56,0,0,0,1.1,0l2.2-7.3a.55.55,0,0,0-.5-.8H22.8a.64.64,0,0,0-.6.8Z"
                   transform="translate(-5.75 -0.75)"/>
-        </svg>
+        </Svg>
     );
 };
 
