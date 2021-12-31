@@ -19,6 +19,9 @@ export { default as TicketIcon } from "./Ticket";
 export { default as TradeIcon } from "./Trade";
 export { default as TwitterIcon } from "./Twitter";
 export { default as CatacombsIcon } from "./Catacombs";
+export { default as BarracksIcon } from "./Barracks";
 export { default as BlackMarketIcon } from "./BlackMarket";
 export { default as DataLabIcon } from "./DataLab";
+export { default as RugRollIcon } from "./RugRoll"
 export { default as ExchangeIcon } from "./Exchange";
+
